@@ -5,16 +5,16 @@ const FuntionalComponent=()=>{
     // setstate(Vue)
     // const [data] = React.useState("react");
     // console.log(data);
-    const handleclick=()=>{
-        console.log("this is click event");
-        SetData("vue")
+    const handleclick=(course, price)=>{
+        console.log(price);
+        SetData(course)
     }
     return (
  
         <div>
             <p> this  is functional componenent </p>
            
-            <button type="button" onClick={handleclick}>click me</button>
+            <button type="button" onClick={()=>handleclick("angular",10)}>click me</button>
             <p>State: {data}</p>
         </div>
     )
