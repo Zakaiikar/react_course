@@ -3,6 +3,7 @@ import ClassBasedComponent from "./Component/ClassBasedComponent";
 import FuntionalComponent from "./Component/FunctionalComponent";
 import Conditionalrendering from "./Component/Conditionalrendering";
 import List from "./Component/List";
+import Counterapp from "./Component/Counterapp";
 
 const TestFunction = () => {
   
@@ -17,7 +18,8 @@ const TestFunction = () => {
      <ClassBasedComponent />
      <FuntionalComponent/> */}
      {/* <Conditionalrendering/> */}
-     <List/>
+     <Counterapp></Counterapp>
+     {/* <List/> */}
     </div>
   ); 
 };
