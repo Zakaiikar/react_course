@@ -2,6 +2,7 @@ import SubComponent from "./Component/SubComponent";
 import ClassBasedComponent from "./Component/ClassBasedComponent";
 import FuntionalComponent from "./Component/FunctionalComponent";
 import Conditionalrendering from "./Component/Conditionalrendering";
+import List from "./Component/List";
 
 const TestFunction = () => {
   
@@ -15,7 +16,8 @@ const TestFunction = () => {
      </SubComponent>
      <ClassBasedComponent />
      <FuntionalComponent/> */}
-     <Conditionalrendering/>
+     {/* <Conditionalrendering/> */}
+     <List/>
     </div>
   ); 
 };
