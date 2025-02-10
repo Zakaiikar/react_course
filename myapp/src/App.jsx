@@ -4,6 +4,7 @@ import FuntionalComponent from "./Component/FunctionalComponent";
 import Conditionalrendering from "./Component/Conditionalrendering";
 import List from "./Component/List";
 import Counterapp from "./Component/Counterapp";
+import Form from "./Component/Form";
 
 const TestFunction = () => {
   
@@ -18,8 +19,9 @@ const TestFunction = () => {
      <ClassBasedComponent />
      <FuntionalComponent/> */}
      {/* <Conditionalrendering/> */}
-     <Counterapp></Counterapp>
+     {/* <Counterapp></Counterapp> */}
      {/* <List/> */}
+     <Form></Form>
     </div>
   ); 
 };
